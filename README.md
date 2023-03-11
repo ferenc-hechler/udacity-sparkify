@@ -10,7 +10,7 @@ This gives the ability to take actions to avoid a user from churning, e.g. make 
 
 # Data
 
-The full data set (12GB) is provided in a S3 Bucket `s3a://udacity-dsnd/sparkify/sparkify_event_data.json`
+The full data set (12GB) is provided in a S3 Bucket `s3a://udacity-dsnd/sparkify/sparkify_event_data.json`  
 Also a mini dataset (120MB) is provided: `s3a://udacity-dsnd/sparkify/mini_sparkify_event_data.json`
 
 
@@ -18,7 +18,7 @@ Also a mini dataset (120MB) is provided: `s3a://udacity-dsnd/sparkify/mini_spark
 
 I used a Jupyter Notebook running in the same cluster as Apache Spark 3.3.2.
 
-Because the server uses Python 3.8, I created a Kernel for the Jupyter Notebook which also uses Python 3.8.
+Because the server uses Python 3.8, the Kernel used in the Jupyter Notebook also has to be Python 3.8.  
 Otherwise it is not possible to use User-Defined-Functions (udf).
 
 In the Jupyter Notebook the following Python packages were installed:
@@ -42,8 +42,9 @@ Additionally two jar files had to be downloaded and added to the spark session t
 
 The repository contains the following files: 
 
-* **01_setup-spark-session.ipynb** - a detailed explanation, of the spark session setup in my environment.
-* **install-s3-jars.sh** - shell script to download jar files neccessary for accessing S3 buckets
+* **01-setup-spark-session.ipynb** - a detailed explanation, of the spark session setup in my environment.
+* **02-data-introspection.ipynp** - introspection and cleanup of the data
+* **install-s3-jars.sh** - shell script to download jar files necessary for accessing S3 buckets
 
 
 
