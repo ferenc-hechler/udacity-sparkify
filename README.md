@@ -45,7 +45,7 @@ The repository contains the following files:
 * **01-setup-spark-session.ipynb** - a detailed explanation, of the spark session setup in my environment.
 * **02-data-introspection.ipynp** - introspection and cleanup of the data
 * **03-visualize-user-events.ipynb** - visualization of the user events
-* **04-aggregate-data** - aggregate date for usage in training
+* **04-aggregate-data** - aggregate data for usage in training
 * **install-s3-jars.sh** - shell script to download jar files necessary for accessing S3 buckets
 
 
