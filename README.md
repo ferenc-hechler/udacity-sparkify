@@ -47,10 +47,8 @@ The repository contains the following files:
 * **03-visualize-user-events.ipynb** - visualization of the user events
 * **04-aggregate-data** - aggregate data for usage in training
 * **05-training-models.ipynb** - create train/test data and train models
+* **06-hyperparameter-search.ipynb** - search for hyperparameter
 * **install-s3-jars.sh** - shell script to download jar files necessary for accessing S3 buckets
-
-
-
 
 
 # Licenses
