@@ -1,12 +1,15 @@
 # Udacity Sparkify
 
+Please visit also my Blog about this project on Medium: 
+https://medium.com/@ferenc.hechler/sparkify-customer-satisfaction-prediction-f3b0941e8710
+
+
 For the Udacity Data Scientist course a big dataset of events from the virtual music streaming service "Sparkify" 
 has to be analyzed to find out, which users are likely to churn (either downgrade from paid service to free 
 or cancel the service completely). 
 
 Using Spark a model should be trained to predict churning before it happens.
 This gives the ability to take actions to avoid a user from churning, e.g. make a special offer.
-
 
 # Data
 
